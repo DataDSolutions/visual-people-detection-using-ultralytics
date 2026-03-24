@@ -64,7 +64,7 @@ python3 -m pip install --upgrade pip
 pip uninstall -y torch torchvision torchaudio || true
 
 # --------------------------------------------------
-# 6. INSTALL PYTORCH (JETSON-COMPATIBLE)
+# 6. INSTALL PYTORCH (SPECIAL VERSION OF TORCH AND TORCHVISION COMPATIBLE WITH JETPACK 6.2.2 OPTIMIZED FOR JETSON ORIN NANO)
 # --------------------------------------------------
 echo "Installing PyTorch (Jetson optimized)..."
 
